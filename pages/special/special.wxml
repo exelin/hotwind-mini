@@ -1,0 +1,24 @@
+<!--pages/special/special.wxml-->
+<view class="container">
+
+  <!--标题栏-->
+  <navigationBar id="navigationBar" color="{{color}}" title="{{title}}" back="{{true}}" background="{{barBg}}">
+  </navigationBar>
+
+  <view class="card" wx:for="{{specialContent}}" wx:key="unique">
+
+    <!--内容-->
+    <view class='contentView'>
+      <text space='ensp' selectable='true' class='content'>{{item.content}}</text>
+    </view>
+
+    <!--作者 出处-->
+    <view class='linkView'>
+      <text class='author' wx:if="{{item.author!=null}}">{{item.author}}</text>
+      <text class='source' wx:if="{{item.source!=null}}">{{item.source}}</text>
+    </view>
+
+  </view>
+
+
+</view>

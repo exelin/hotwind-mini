@@ -1,0 +1,42 @@
+/* pages/special/special.wxss */
+.container {
+  height: 100%;
+  padding: 30rpx;
+  margin-top: 10rpx;
+  
+}
+
+.card {
+  border: 3rpx solid #fff;
+  border-radius: 10rpx;
+  background-color: #fff;
+  box-shadow: 3rpx 3rpx 3rpx 3rpx #eee;
+  margin: 24rpx;
+  position: relative;
+  width: 95%;
+  height: 90%;
+  min-height: 200rpx;
+}
+
+.contentView {
+  margin: 6%;
+}
+
+.content {
+  font-size: 18px;
+}
+
+.linkView {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.author {
+  margin-left: 15%;
+  font-size: 16px;
+}
+
+.source {
+  margin-left: 5%;
+  font-size: 16px;
+}
